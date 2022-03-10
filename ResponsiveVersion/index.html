@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>EjercicioC7</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="top">
+            <h1><a href="#">La familia</a></h1>
+        </header>
+        <nav class="navbar">
+            <a href="#" class="toggle">☰ Menu </a>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Nosotros</a></li>
+                <li><a href="">Productos</a></li>
+                <li><a href="">Contacto</a></li>
+                <li><a href="">Opiniones</a></li>
+            </ul>
+        </nav>
+    </div>   
+    <script> 
+        const toggle = document.querySelector('.toggle');
+        console.log(toggle);
+        const navUl = document.querySelector('nav.navbar ul');
+
+        console.log(navUl); 
+
+        toggle.addEventListener('click', () => {
+            navUl.classList.toggle('open');
+        });
+    </script> 
+</body>
+</html>

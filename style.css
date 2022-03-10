@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Arimo&family=Hubballi&family=Mohave:ital,wght@1,600&family=Poppins:wght@300&family=Smooch+Sans:wght@100&display=swap');
+
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Mohave', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: rgb(126,12,4);
+    background: radial-gradient(circle, rgba(126,12,4,1) 0%, rgba(69,0,0,1) 100%); 
+}
+
+a{
+    text-decoration: none;
+    color: #afa8a8;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 20px 5px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+a:hover{
+    background: rgba(0, 0, 0, 0.3);
+}
+
+/* .toggle{
+    display: none; (fuera del @media)
+} */
+
+.wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    flex-basis: 100%;
+
+    flex: 1 1 60%;
+}
+
+.toggle{
+    display: block;
+}
+
+.navbar ul{
+    display: none;
+
+    flex-wrap: wrap;
+}
+
+.navbar ul.open{
+    display: flex;
+}
+/* @media all and (max-width: 1000px){
+    .navbar ul {
+        flex-wrap: wrap;
+    }
+    .navbar li{
+        flex: 1 1 60%
+    }
+}
+
+@media all and (max-width: 800px){
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar li {
+        flex-basis: 100%;
+    }
+
+    .toggle{
+        display: block;
+    }
+
+    .navbar ul{
+        display: none;
+    }
+
+    .navbar ul.open{
+        display: flex;
+    }
+} */
+

@@ -72,6 +72,79 @@ a:hover{
 .navbar ul.open{
     display: flex;
 }
+
+.buttons{
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 5rem;
+    display: inline-block;
+   
+}
+
+.BtnRound{
+    border-radius: 100%;
+    width: 4rem;
+    height: 4rem;
+    font-size: 2rem;
+    background-color: rgba(70, 60, 60);
+    border: 2px solid black;
+    margin: 0 2rem;
+    justify-content: space-evenly;
+    
+}
+
+.BtnRound:hover{
+    border-radius: 100%;
+    width: 4rem;
+    height: 4rem;
+    font-size: 2rem;
+    background-color: rgba(70, 60, 60, 0.6);
+    color: white;
+    
+}
+.BtnRoundBorder{
+    width: 7rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    background-color: rgba(70, 60, 60);
+    color: black;
+    border:2px solid black;
+    border-radius: 10%;
+    margin-left: 2rem;
+    margin-right: 1.5;
+    justify-content: space-evenly;
+}
+
+.BtnRoundBorder:hover{
+        width: 7rem;
+        height: 4rem;
+        font-size: 1.5rem;
+        background-color: rgba(70, 60, 60, 0.6);
+        color: white;
+        border:2px solid black;
+        border-radius: 10%;
+    }
+
+.BtnTransp{
+    width: 7rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    background-color: rgba(70, 60, 60, 0.0);
+    color: black;
+    border: 0px;
+    margin: 0 2rem;
+    justify-content: space-evenly;
+}
+
+.BtnTransp:hover{
+    width: 7rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    background-color: rgba(70, 60, 60, 0.0);
+    color: white;
+    border: 0px;
+
+}
 /* @media all and (max-width: 1000px){
     .navbar ul {
         flex-wrap: wrap;

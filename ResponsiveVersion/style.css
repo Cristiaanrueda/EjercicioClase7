@@ -67,11 +67,12 @@ a:hover{
     width: 4rem;
     height: 4rem;
     font-size: 2rem;
-    background-color: rgba(70, 60, 60);
+    background: rgba(0, 0, 0, 0.2);
+    color: #afa8a8;
+    font-weight: 100;
     border: 2px solid black;
     margin: 0 2rem;
-    justify-content: space-evenly;
-    
+    justify-content: space-evenly; 
 }
 
 .BtnRound:hover{
@@ -87,13 +88,15 @@ a:hover{
     width: 7rem;
     height: 4rem;
     font-size: 1.5rem;
-    background-color: rgba(70, 60, 60);
-    color: black;
     border:2px solid black;
     border-radius: 10%;
     margin-left: 2rem;
     margin-right: 1.5;
     justify-content: space-evenly;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    background: rgba(0, 0, 0, 0.2);
+     color: #afa8a8;
 }
 
 .BtnRoundBorder:hover{
@@ -107,15 +110,17 @@ a:hover{
     }
 
 .BtnTransp{
-    width: 7rem;
-    height: 4rem;
-    font-size: 1.5rem;
-    background-color: rgba(70, 60, 60, 0.0);
-    color: black;
-    border: 0px;
-    margin: 0 2rem;
-    justify-content: space-evenly;
-}
+        width: 7rem;
+        height: 4rem;
+        font-size: 1.5rem;
+        background: rgba(0, 0, 0, 0.0);
+        color: #afa8a8;
+        border: 0px;
+        margin: 0 2rem;
+        justify-content: space-evenly;
+        font-weight: 100;
+        letter-spacing: 1.5px;
+    }
 
 .BtnTransp:hover{
     width: 7rem;
